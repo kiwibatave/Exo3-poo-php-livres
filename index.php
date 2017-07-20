@@ -2,7 +2,9 @@
 
 require 'livres.php';
 
-$test = new Livre ('Titre','auteur', 100);
+$livre = new Livre ('Titre','auteur', 100);
 
-echo $test->show();
-// echo $test->sell();
+$livre2 = new Livre ('Toto va à la plage', 'Jérémy H', 87, 12);
+
+echo $livre.'<br>';
+echo $livre2;
